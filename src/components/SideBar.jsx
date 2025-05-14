@@ -30,7 +30,7 @@ export default function SideBar() {
       </div>
       <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
         <SheetContent
-          className="ml-[72px] min-w-[calc(80%-72px)] min-h-[calc(100%-56px)] overflow-y-scroll"
+          className="ml-[110px] min-w-[calc(80%-72px)] min-h-[calc(100%-56px)] overflow-y-scroll"
           side="left"
         >
           <SheetHeader className="sticky top-0 w-full bg-white border-b">
