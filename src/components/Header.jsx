@@ -12,6 +12,7 @@ import { Checkbox } from "./ui/checkbox";
 import { ArrowBigDown, PlusCircleIcon } from "lucide-react";
 import { useAppStore } from "../lib/zustand";
 import { queryGenerator } from "../lib/utils";
+import LogoutButton from "./LogoutButton";
 //
 
 export default function Header() {
@@ -81,6 +82,7 @@ export default function Header() {
           <PlusCircleIcon />
           New Invoice
         </Button>
+        <LogoutButton />
       </div>
     </header>
   );
